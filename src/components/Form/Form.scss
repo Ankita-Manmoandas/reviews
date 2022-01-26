@@ -1,0 +1,46 @@
+
+.form {
+  background-color: rgb(131, 176, 131);
+  height: 100vh;
+  &__card {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+    &__label {
+     padding: 2%;
+
+    }
+
+
+    &__input {
+
+      border: 2px solid black;
+     border-radius: 25px;
+      padding: 2%;
+
+    }
+
+    &__input:focus{
+      background-color: rgb(163, 141, 184);
+    }
+
+    &__submit {
+      margin-top: 5%;
+      padding: 2%;
+      
+    }
+
+
+
+  
+
+
+
+  
+
+
+}
