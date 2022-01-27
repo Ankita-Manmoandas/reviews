@@ -1,13 +1,16 @@
 .nav {
   height: 10vh;
+  border: 2px solid rgb(111, 103, 103);
 
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 17px;
-  background-color: rgb(218, 211, 205);
+  font-size: 20px;
+  background-color:rgb(0, 17, 93) ;
  
   &__item {
     text-decoration: none;
+    font-weight: 300;
+    color: rgb(242, 179, 245);
   }
 }
