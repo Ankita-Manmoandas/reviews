@@ -7,7 +7,7 @@ const ReviewList = (props) => {
     <div>
       <h2> All your reviews</h2>
       <div>
-        { props.reviews && props.reviews.map (review => <Reviews review={review}/>)}
+        { props.reviews && props.reviews.map (review => <Reviews reviews={review}/>)}
     
       </div>
 

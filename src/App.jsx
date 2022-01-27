@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     getReviews();
   },[bookReviews]
-  )
+  );
 
   return (
 
@@ -31,7 +31,7 @@ function App() {
         <Nav />
         <Routes> 
           <Route path = "/" element = {<Home />} />
-          <Route path = "/reviews" element={<ReviewList review={bookReviews} />} />
+          <Route path = "/reviews" element={<ReviewList reviews={bookReviews} />} />
           <Route path = "/add-a-review" element = {<Form />} />
     
       </Routes>

@@ -36,6 +36,12 @@ const Form = () => {
 
     <form className="form__card" onSubmit= {handleSubmit}> 
     <label className="form__label">
+    Image URL
+    </label>
+    <input className="form__input" type="text" onInput={(event)=> setReviews({...reviews, bookURL: event.target.value})} />
+
+
+    <label className="form__label">
       Book title </label>
       <input className="form__input" type="text" onInput={(event)=> setReviews({...reviews,title: event.target.value})} />
  
@@ -47,7 +53,7 @@ const Form = () => {
     <label className="form__label">
       Score (out of 5)
       </label>
-      <input className="form__input" type="text" onInput={(event)=> setReviews({...reviews, score: event.target.value})} />
+      <input className="form__input" type="number"  onInput={(event)=> setReviews({...reviews, score: event.target.value})} />
  
     <label className="form__label">
     Review

@@ -8,7 +8,7 @@ const Reviews = (props) => {
     author,
     score,
     review
-  } = props
+  } = props.reviews
 
   return (
     <div>
