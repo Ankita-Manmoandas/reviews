@@ -1,0 +1,25 @@
+@import "../../assests/typo.scss";
+
+* {
+  background-color:rgb(0, 17, 93) 
+  ;
+
+}
+.home__header {
+
+  font-family:  $font-secondary;
+ 
+  margin-top: 5%;
+  font-size: 20px;
+} 
+.home__description {
+  font-family:  $font-primary;
+  font-size: larger;
+
+}
+
+
+img {
+  width: 100%;
+
+}

@@ -1,6 +1,11 @@
 
+
+@import "../../assests/variables";
+
+
 .form {
   //background-color: rgb(131, 176, 131);
+  margin: 5% 5%;
   height: 100vh;
   &__card {
     height: max-content;
@@ -21,7 +26,7 @@
       border: 2px solid black;
      border-radius: 25px;
       padding: 2%;
-
+      background-color: rgb(234, 195, 221);
     }
 
     &__input:focus{
@@ -31,11 +36,12 @@
     &__submit {
       margin-top: 5%;
       padding: 2%;
+      background-color: rgb(234, 195, 221);
+      border-radius: 25px;
       
     }
 
-
-
+   
   
 
 

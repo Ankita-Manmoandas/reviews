@@ -42,9 +42,9 @@ const Reviews = (props) => {
       <br/>
       {author} </p>
       <p className="review__label"> Rating: {score} </p>
-      <p className="review__label"> Your detailed review: 
+      <p className="review__review"> Your detailed review: 
       <br/> {review} </p>
-      <button onClick={handleDelete}> delete</button>
+      <button className="review__button" onClick={handleDelete}> Delete</button>
 
       
 

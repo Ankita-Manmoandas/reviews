@@ -1,15 +1,25 @@
 .review {
-  border: black 3px solid;
+  border: rgb(37, 43, 91) 3px solid;
   height: 10%;
   padding: 5% 5%;
+  margin: 5% 5%;
   
 
 
   &__cover {
     height: 300px;
+    width: 200px;
     
   }
-  &__label {
+  &__review{
+    background-color: rgb(10, 42, 98);
+    border: #fcc1f2 0.5px dashed;
+    padding: 5% 5%;
+    text-align: left;
+  }
+  &__button {
+    background-color: rgb(241, 205, 205);
+    padding: 5% 5%;
   
 
   }

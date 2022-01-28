@@ -36,7 +36,7 @@ const Form = () => {
 
     <form className="form__card" onSubmit= {handleSubmit}> 
     <label className="form__label">
-    Image URL
+    Image URL 📸
     </label>
     <input className="form__input" type="text" onInput={(event)=> setReviews({...reviews, bookURL: event.target.value})} />
 
@@ -58,7 +58,7 @@ const Form = () => {
     <label className="form__label">
     Review
     </label>
-    <textarea rows="7" cols="40" className="form__input" type="text" onInput={(event)=> setReviews({...reviews, review: event.target.value})} ></textarea>
+    <textarea rows="7" cols="30" className="form__input" type="text" onInput={(event)=> setReviews({...reviews, review: event.target.value})} ></textarea>
   
     <button type="submit" className="form__submit" > Submit </button>
   </form>
